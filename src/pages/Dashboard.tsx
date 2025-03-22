@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/Card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { MetricsGrid } from "@/components/ui/Metrics";
 import { ProjectCard } from "@/components/ui/ProjectCard";
 import { ActivityFeed } from "@/components/ui/ActivityFeed";

@@ -84,7 +84,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                     <SidebarMenuItem key={item.path}>
                       <SidebarMenuButton
                         asChild
-                        active={location.pathname === item.path}
+                        isActive={location.pathname === item.path}
                         className={cn(
                           "flex justify-between w-full py-3",
                           location.pathname === item.path ? "text-crm-primary" : ""
@@ -130,7 +130,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                   <SidebarMenuItem key={item.path}>
                     <SidebarMenuButton
                       asChild
-                      active={location.pathname === item.path}
+                      isActive={location.pathname === item.path}
                       className={cn(
                         "flex items-center py-3",
                         location.pathname === item.path ? "text-crm-primary" : ""
