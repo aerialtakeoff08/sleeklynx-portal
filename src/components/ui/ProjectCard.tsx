@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./Card";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { CalendarIcon, CheckCircleIcon, ClockIcon, FileIcon } from "lucide-react";
