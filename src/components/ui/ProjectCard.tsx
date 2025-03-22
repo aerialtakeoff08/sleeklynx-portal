@@ -42,8 +42,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 
   return (
     <Card
-      isHoverable={true}
-      className="overflow-hidden animate-scale-in"
+      className={cn("overflow-hidden animate-scale-in hover:translate-y-[-2px] transition-all duration-300")}
     >
       <CardHeader className="pb-0">
         <div className="flex justify-between items-start">
