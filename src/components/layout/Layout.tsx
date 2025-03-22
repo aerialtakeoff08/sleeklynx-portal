@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { SidebarProvider, SidebarTrigger, Sidebar, SidebarContent, SidebarHeader, SidebarGroup, SidebarGroupLabel, SidebarGroupContent, SidebarFooter, SidebarMenu, SidebarMenuItem, SidebarMenuButton } from "@/components/ui/sidebar";
 import { Button } from "@/components/ui/button";
@@ -71,8 +70,8 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         <Sidebar className="bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700">
           <SidebarHeader className="p-4 flex items-center border-b border-gray-100 dark:border-gray-700">
             <div className="flex items-center ml-2">
-              <span className="text-xl font-bold text-crm-primary">Accu</span>
-              <span className="text-xl font-bold">Lynx</span>
+              <span className="text-xl font-bold text-crm-primary">Roofer</span>
+              <span className="text-xl font-bold">App.com</span>
             </div>
           </SidebarHeader>
           <SidebarContent className="p-4">
